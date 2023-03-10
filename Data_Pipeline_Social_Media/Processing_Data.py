@@ -2,7 +2,7 @@ import pandas as pd
 import pymongo
 from textblob import TextBlob
 import re
-import snowflake.connector
+import json
 
 # Making  a connection to MongoDB database and its collection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -32,5 +32,15 @@ for post in data:
     collection.update_one({"_id": post["_id"]}, {"$set": {"sentiment_score": sentiment_score}})
 # print(sentiment_scores)
 
+# Create a new list of dictionaries containing only desired columns
+columns = ['id', 'date', 'content', 'username', 'followers', 'location', 'hashtags', 'retweets', 'favorites', 'language', 'source', 'sentiment_score']
+new_data = []
+for post in data:
+    new_post = {col: post[col] for col in columns}
+    new_data.append(new_post)
 
-# Connecting to snowflake and loading the processed data
+# Saving the output with sentiment scores in json file
+with open('Final_data.json', 'w') as f:
+    # Write the data to the file
+    json.dump(new_data, f)
+
