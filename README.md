@@ -23,4 +23,7 @@ Power BI Reports:
 ![image](https://user-images.githubusercontent.com/113409553/224512086-46ebda95-ea2c-4192-8438-09c29c34a245.png)
 
 
+
 Power BI Dashboard:
+
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/113409553/224513134-e7285ad5-e3cf-4a4b-87d4-a4aaf74aea63.png">
