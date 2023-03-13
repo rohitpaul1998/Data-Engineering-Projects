@@ -3,6 +3,13 @@
 **Problem statement**: 
 Build a data warehousing solution for a retail company that enables analysis of their history of product complaints and consumer data. The solution will include data profiling in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from various sources into a Ralph Kimball-Star schema dimensional model in Amazon Redshift, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
 
+**Data source:** https://www.kaggle.com/datasets/dushyantv/consumer_complaints
+
+**Dimensional Model:**
+
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/113409553/224708273-03091377-d974-4de8-99d5-ca2c6dc84f8e.png">
+
+
 
 
 
@@ -19,9 +26,9 @@ Build a data warehousing solution for a retail company that enables analysis of 
 5. Designed powerful data visualization dashboards in Power BI, presented trends and insights, leveraged DAX formulas and calculated sentiment remarks on the distribution of user sentiment scores, providing even deeper insights into user behaviour
 6. Automated the data pipeline using Apache Airflow and monitored workflows resulting in efficient and reliable data processing
 
-Tech stack: Python, SQL, NumPy, Pandas, MongoDB, NoSQL, TextBlob, Snowflake, Power BI, DAX, Apache Airflow
+**Tech stack:** Python, SQL, NumPy, Pandas, MongoDB, NoSQL, TextBlob, Snowflake, Power BI, DAX, Apache Airflow
 
-Power BI Reports:
+**Power BI Reports:**
 - Distribution of sentiment scores of tweets
 ![image](https://user-images.githubusercontent.com/113409553/224511985-11a94f0c-84d7-43b1-b713-0ab320e5a146.png)
 
@@ -36,6 +43,6 @@ Power BI Reports:
 
 
 
-Power BI Dashboard:
+**Power BI Dashboard:**
 
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/113409553/224513134-e7285ad5-e3cf-4a4b-87d4-a4aaf74aea63.png">
