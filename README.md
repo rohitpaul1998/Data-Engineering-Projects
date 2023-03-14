@@ -1,7 +1,7 @@
 # Data-Engineering-Projects
 ### Retail Company Data Warehousing Solution
 **Problem statement**: 
-Build a data warehousing solution for a retail company that enables analysis of their history of product complaints and consumer data. The solution will include data profiling in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from various sources into a Ralph Kimball-Star schema dimensional model in Amazon Redshift, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
+Build a data warehousing solution for a retail company that enables analysis of their history of product complaints and consumer data. The solution will include data profiling in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from data source into a Ralph Kimball-Star schema dimensional model in Amazon Redshift, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
 
 **Data source:** https://www.kaggle.com/datasets/dushyantv/consumer_complaints
 
