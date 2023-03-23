@@ -3,7 +3,7 @@
 **Problem statement**: 
 Build a data warehousing solution for a retail company that enables analysis of their product complaints and consumer data. The solution will include source system analysis (data profiling) in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from data source into a Ralph Kimball-Star schema dimensional model in Amazon Redshift, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
 
-***Note:*** Project in progress. Check the "Retail company" folder. Inside, you will find a readme file that showcases the Kimball star-schema dimensional model that will be used for the Data warehousing solution.
+***Note:*** Project in progress. Check the "Retail company" folder. Inside, you will find a readme file that showcases the Source system analysis/data profiling, Kimball star-schema dimensional model, data staging scripts in PostgreSQLfor the Data warehousing solution.
 
 
 
