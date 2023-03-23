@@ -9,13 +9,25 @@ Data source: https://www.kaggle.com/datasets/dushyantv/consumer_complaints
 
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/113409553/227084573-e2348b14-552e-433e-a295-8f95b3a7be36.png">
 
+- Based on the source system analysis, the above dimensional model is designed to satisfy:
+1. Faster query performance
+2. Organized data structure
+3. Enhanced visualization for Business Intelligence
+4. Data quality improvements
 
 **Source System Analysis:**
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/113409553/226161920-ea24eab1-3339-462f-b189-a6273636a3ab.png">
 <img width="724" alt="image" src="https://user-images.githubusercontent.com/113409553/226161966-2804ad33-9651-48c7-ae4c-a6e8dc6bf856.png">
 <img width="726" alt="image" src="https://user-images.githubusercontent.com/113409553/226161981-01cb3a79-4ffa-4f19-858a-bce1f3e797dc.png">
-Row count: 777959<br>
+Row count: 777959
+<p><br></p>
+
+- Key findings from source system:
+1. Multiple fields with blank values
+2. Indifferent data types 
+
+
 <p><br></p>
 
 **Data Staging to PostgreSQL:**
