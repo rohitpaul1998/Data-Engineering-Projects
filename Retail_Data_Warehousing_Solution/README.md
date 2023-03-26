@@ -1,13 +1,14 @@
 ### Retail Company Data Warehousing Solution
 **Problem statement**: 
-Build a data warehousing solution for a retail company that enables analysis of their product complaints and consumer data. The solution will include source system analysis (data profiling) in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from data source into a Ralph Kimball-Star schema dimensional model in Amazon Redshift, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
+Build a data warehousing solution for a retail company that enables analysis of their product complaints and consumer data. The solution will include source system analysis (data profiling) in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from data source into a Ralph Kimball-Star schema dimensional model in Google BigQuery, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
 
 Data source: https://www.kaggle.com/datasets/dushyantv/consumer_complaints
 <p><br></p>
 
 **Dimensional Model:**
 
-<img width="592" alt="image" src="https://user-images.githubusercontent.com/113409553/227084573-e2348b14-552e-433e-a295-8f95b3a7be36.png">
+<img width="583" alt="image" src="https://user-images.githubusercontent.com/113409553/227758631-d7091d21-5a6f-4c68-9fd9-e3c9fd3c2d62.png">
+
 
 - Based on the source system analysis, the above dimensional model is designed to satisfy:
 1. Faster query performance
@@ -38,6 +39,6 @@ Row count: 777959
 Rows returned: 777959
 <p><br></p>
 
-**Data integration to Amazon Redshift:**
+**Data integration to Google BigQuery:**
 
 ...in progress
