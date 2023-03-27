@@ -7,7 +7,8 @@ Data source: https://www.kaggle.com/datasets/dushyantv/consumer_complaints
 
 **Dimensional Model:**
 
-<img width="583" alt="image" src="https://user-images.githubusercontent.com/113409553/227758631-d7091d21-5a6f-4c68-9fd9-e3c9fd3c2d62.png">
+<img width="583" alt="image" src="https://user-images.githubusercontent.com/113409553/228065720-8791fcb7-f9de-4cfe-9a19-d1f1637fdf63.png">
+
 
 
 - Based on the source system analysis, the above dimensional model is designed to satisfy:
