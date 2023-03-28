@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dataset.xlsx
+Query=`Consumer_Complaints$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date received" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Product" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Sub-product" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_WString" />
+            <Field name="Issue" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Sub-issue" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Consumer complaint narrative" size="5151" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_WString" />
+            <Field name="Company public response" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Company" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_WString" />
+            <Field name="State" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="ZIP code" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Tags" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Consumer consent provided" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Submitted via" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Date sent to company" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Company response to consumer" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Timely response" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Consumer disputed" size="255" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="V_String" />
+            <Field name="Complaint ID" source="File: D:\MS in US\MS in US - Applications Documents\MS Applications - post submission\Northeastern University\2nd Sem - courses\DADABI\Personal Projects\Retail Corp Data warehousing solution\Dataset\Retail company customer complaints\dataset.xlsx|||`Consumer_Complaints$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date received" selected="True" />
+            <SelectField field="Product" selected="True" />
+            <SelectField field="Sub-product" selected="True" />
+            <SelectField field="Issue" selected="True" />
+            <SelectField field="Sub-issue" selected="True" />
+            <SelectField field="Consumer complaint narrative" selected="True" />
+            <SelectField field="Company public response" selected="True" />
+            <SelectField field="Company" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="ZIP code" selected="True" />
+            <SelectField field="Tags" selected="True" />
+            <SelectField field="Consumer consent provided" selected="True" />
+            <SelectField field="Submitted via" selected="True" />
+            <SelectField field="Date sent to company" selected="True" />
+            <SelectField field="Company response to consumer" selected="True" />
+            <SelectField field="Timely response" selected="True" />
+            <SelectField field="Consumer disputed" selected="True" />
+            <SelectField field="Complaint ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="294" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ROHITP~1\AppData\Local\Temp\Engine_29016_781c24b68b1ad846adabf887082171b3_\Engine_29016_955deec2d52e844f994d96049737c456~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="18" width="168" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Profiling</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="128" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ROHITP~1\AppData\Local\Temp\Engine_29016_781c24b68b1ad846adabf887082171b3_\Engine_29016_d8c17f6abd1aa74ea1b53c46172ba8d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="558" y="498" width="168" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Browsing data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:retail_warehousing_stg|||retail_warehousing_stg</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:retail_warehousing_stg
+Query=retail_warehousing_stg</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="798" y="174" width="144" height="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[To Data staging tables in MS SQL Server
+]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="128" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1577" y="197" width="152" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 20</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1602" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeParse([Date received], &quot;%m/%d/%y&quot;)" field="Date received" size="255" type="V_String" />
+                <FormulaField expression="If [Sub-product] = &quot;&quot; THEN &quot;Unknown&quot; Else [Sub-product] Endif" field="Sub-product" size="255" type="V_WString" />
+                <FormulaField expression="If [Sub-issue] = &quot;&quot; Then &quot;Undisclosed&quot; Else [Sub-issue] Endif" field="Sub-issue" size="255" type="V_String" />
+                <FormulaField expression="If [Consumer complaint narrative] = &quot;&quot; Then &quot;Undisclosed&quot; Else [Consumer complaint narrative] Endif" field="Consumer complaint narrative" size="5151" type="V_WString" />
+                <FormulaField expression="If [Company public response] = &quot;&quot; Then &quot;Undisclosed&quot; Else [Company public response] Endif" field="Company public response" size="255" type="V_String" />
+                <FormulaField expression="If [Tags] = &quot;&quot; Then &quot;Unknown&quot; Else [Tags] Endif" field="Tags" size="255" type="V_String" />
+                <FormulaField expression="If [Consumer consent provided] = &quot;&quot; Then &quot;N/A&quot; Else [Consumer consent provided] Endif" field="Consumer consent provided" size="255" type="V_String" />
+                <FormulaField expression="DateTimeParse([Date sent to company], &quot;%m/%d/%Y&quot;)" field="Date sent to company" size="255" type="V_String" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+                <FormulaField expression="FileGetDir([Engine.WorkflowDirectory])" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Date received = DateTimeParse([Date received], "%m/%d/%y")
+Sub-product = If [Sub...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Source system analysis and Staging data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="072d70a5-d607-42cf-88a4-75871b25a01b" />
+      <Telemetry>
+        <PreviousWorkflowId value="b0d241cc-cc70-49ad-b4fb-2eed5cb4b37e" />
+        <OriginWorkflowId value="6080057c-ab0a-40b4-885c-9a7bcd35f1d9" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
