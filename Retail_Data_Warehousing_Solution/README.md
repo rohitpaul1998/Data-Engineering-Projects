@@ -51,4 +51,20 @@ Rows returned: 777959
 
 **Data integration to Google BigQuery:**
 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/113409553/228417848-d2ffd2da-50b4-4b67-bc7c-31cbcc5d9c7c.png">
+
+- What's happening here?
+1. Retail Consumer Complaints data that was staged to MS SQL Server is used as input
+2. With the help of the tMap component, data cleansing and transformation were performed using Java expressions
+3. Fields with Blank data and irregular types were transformed
+4. Transformed data is branched to multiple BigQuery output components, each tagged to their respective tables
+
+
+**Transformed data present in integration tables**
+
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/113409553/228419292-c0a1996b-b8d9-4af7-97b2-8dd305bd37e5.png">
+
+
+**Data Visualization - Tableau**
+
 ...in progress
