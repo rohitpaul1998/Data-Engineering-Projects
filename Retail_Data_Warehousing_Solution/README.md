@@ -58,6 +58,7 @@ Rows returned: 777959
 2. With the help of the tMap component, data cleansing and transformation were performed using Java expressions
 3. Fields with Blank data and irregular types were transformed
 4. Transformed data is branched to multiple BigQuery output components, each tagged to their respective tables
+5. Loaded transformed data to BigQuery tables, performed analytics and retrieved customer and company insights
 
 
 **Transformed data present in integration tables**
