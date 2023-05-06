@@ -3,7 +3,10 @@
 **Problem statement**: 
 Build a data warehousing solution for a retail company that enables analysis of their product complaints and consumer data. The solution will include source system analysis (data profiling) in Alteryx, data staging, ETL development in Talend to extract, transform, and load data from data source into a Ralph Kimball-Star schema dimensional model in Google BigQuery, as well as development and testing of the entire data integration workflow. The resulting data will be visualized using interactive dashboards in Tableau
 
-***Note:*** Project in progress. Check the "Retail company" folder. Inside, you will find a readme file that showcases the Source system analysis/data profiling, Kimball star-schema dimensional model, data staging scripts in PostgreSQLfor the Data warehousing solution.
+***Note:*** Project in progress.
+
+***Click to view results:*** https://github.com/rohitpaul1998/Data-Engineering-Projects/tree/main/Retail_Data_Warehousing_Solution
+
 
 
 
@@ -23,4 +26,5 @@ Build a data warehousing solution for a retail company that enables analysis of 
 6. Automated the data pipeline using Apache Airflow and monitored workflows resulting in efficient and reliable data processing
 
 
-***Note:*** Check the "Data Pipeline for Social Media Analytics" folder. Inside, you will find a readme file that showcases the visualization reports and an interactive dashboard designed.
+***Click to view results:*** https://github.com/rohitpaul1998/Data-Engineering-Projects/tree/main/Data_Pipeline_Social_Media
+
